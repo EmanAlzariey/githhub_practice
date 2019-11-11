@@ -15,10 +15,9 @@
 }
 
 
-
 /* tablet */
 
-@media (min-width: 600px) {
+@media (min-width: 992px) {
     .col-fl-md-1 {
         width: 8.33%;
     }

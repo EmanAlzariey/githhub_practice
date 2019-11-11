@@ -9,15 +9,14 @@
     content: "";
     clear: both;
     display: table;
-    
 }
 
 
 .wrapper {
     background: #fff;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 5% 5%;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .container {
@@ -29,8 +28,6 @@
 body {
     padding-top: 70px;
 }
-
-
 
 .menu {
     height: 70px;
@@ -186,7 +183,8 @@ footer {
     color: red;
 }
 
-.up img {
+
+/* .up img {
     height: 350px;
     width: 350px;
     margin: 0 auto;
@@ -241,4 +239,27 @@ footer {
 
 .menu nav.shown-nav {
     right: 0;
+}
+
+
+/* new try to fix the unfixed LOOOOOL */
+
+.u1 h2,
+.u1 p {
+    text-align: center;
+}
+
+.u1 img {
+    width: 100%;
+    height: 39vh;
+    /* position: relative;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%-50%); */
+}
+
+.u1 {
+    /* border: #555 solid; */
+    margin: 0px;
+    box-sizing: border-box;
 }
