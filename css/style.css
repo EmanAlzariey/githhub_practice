@@ -20,10 +20,11 @@ font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     flex: 1;
 }
 
+
 .wrapper{
     background: #fff;
     display: flex;
-  margin: 25% 50%;
+  margin: 5% 5%;
 }
 .container{
     margin:30px;
