@@ -15,7 +15,7 @@ fetch("http://localhost:3000/product")
         console.log(element)
         let up = document.getElementById("up");
         let u1 = document.createElement("div")
-        u1.className = "u1 col-fl-md-4 clearfix "
+        u1.className = "u1 col-fl-md-4 "
         let img = document.createElement("img")
         let h1 = document.createElement("h1");
         h1.innerHTML = element.Name;

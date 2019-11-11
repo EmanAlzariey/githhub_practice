@@ -12,23 +12,6 @@
     
 }
 
-.row {
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.col {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.flex1 {
-    flex: 1;
-}
 
 .wrapper {
     background: #fff;
@@ -222,9 +205,9 @@ footer {
 }
 
 @media only screen and (max-width: 900px) {
-    .row {
+    /* .row {
         flex-direction: column;
-    }
+    } */
 }
 
 @media screen and (max-width: 900px) {
