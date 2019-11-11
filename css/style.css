@@ -192,7 +192,8 @@ footer {
 
 .up h1 {
     color: black;
-} */
+    text-align: center;
+}
 
 .up p {
     color: rgb(15, 15, 119);
