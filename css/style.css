@@ -184,9 +184,9 @@ footer {
 }
 
 
-/* .up img {
-    height: 350px;
-    width: 350px;
+ .up img {
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -251,7 +251,7 @@ footer {
 
 .u1 img {
     width: 100%;
-    height: 39vh;
+    height: 100%;
     /* position: relative;
     top: 50%;
     right: 50%;
