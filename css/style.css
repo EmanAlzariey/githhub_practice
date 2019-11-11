@@ -8,6 +8,8 @@
 .clearfix {
     content: "";
     clear: both;
+    display: table;
+    
 }
 
 .row {
@@ -30,21 +32,22 @@
 
 .wrapper {
     background: #fff;
-    display: flex;
+    display: inline-block;
     margin: 5% 5%;
+    width: 100%;
 }
 
 .container {
-    margin: 30px;
+    margin: 1%;
+    width: 100%;
+    display: inline-block;
 }
 
 body {
     padding-top: 70px;
 }
 
-body {
-    padding-top: 70px;
-}
+
 
 .menu {
     height: 70px;

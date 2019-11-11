@@ -12,10 +12,10 @@ fetch("http://localhost:3000/product")
     for (const key in data) {
       if (data.hasOwnProperty(key)) {
         const element = data[key];
-        // console.log(element)
+        console.log(element)
         let up = document.getElementById("up");
         let u1 = document.createElement("div")
-        u1.classList = "u1 col-fl-md-4"
+        u1.className = "u1 col-fl-md-4 clearfix "
         let img = document.createElement("img")
         let h1 = document.createElement("h1");
         h1.innerHTML = element.Name;
